@@ -1,4 +1,4 @@
 env
 dataset
 models
-results
+*.csv
