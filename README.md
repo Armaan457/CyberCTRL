@@ -2,6 +2,8 @@
 
 **CyberCTRL** is a Domain-Adapted Cybersecurity Large Language Model for cybersecurity intelligence, threat triage, and role-conditioned guidance. It is optimized to deliver accurate vulnerability analysis, CVSS, severity scoring, and persona-calibrated responses (Security Analyst, Developer, Student).
 
+Check out the model and try it out here: [**CyberCTRL**](https://huggingface.co/Armaan457/CyberCTRL)
+
 ---
 
 ## Tech Stack
@@ -53,4 +55,4 @@ The fine-tuned model successfully learned target token density and conciseness, 
 
 - **Vulnerability Risk Reasoning**: Base models recognize CVE and MITRE labels as text tokens, but struggle to evaluate exploitability and blast radius. Fine-tuning instills true risk calibration, enabling the model to assess vulnerability mechanics and map them accurately to severity tiers and CVSS scores.
 - **Semantic Precision (BERTScore & ROUGE)**: The steep rise in BERTScore confirms deep conceptual alignment with expert references rather than surface-level memorization, replacing generic conversational filler with actionable, technically sound mitigations.
-- **Audience-Targeted Substance**: Fine-tuning doesn't just enforce brevity—it dynamically shifts the technical focus by persona, delivering actionable code fixes for developers, rapid triage for SOC analysts, and foundational explanations for learners.
+- **Audience-Targeted Substance**: Fine-tuning doesn't just enforce brevity, it dynamically shifts the technical focus by persona, delivering actionable code fixes for developers, rapid triage for SOC analysts, and foundational explanations for learners.
